@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_horizontal"
+    android:orientation="vertical"
+    tools:context="com.rxy.myappportfolio.MainActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/margin_large"
+        android:text="@string/title_name"
+        android:textSize="18sp"/>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+    <Button
+        android:id="@+id/bt_fir"
+        style="@style/CustomButton"
+        android:text="@string/name_bt_fir"/>
+
+    <Button
+        android:id="@+id/bt_sec"
+        style="@style/CustomButton"
+        android:text="@string/name_bt_sec"/>
+
+    <Button
+        android:id="@+id/bt_thi"
+        style="@style/CustomButton"
+        android:text="@string/name_bt_thi"/>
+
+
+    <Button
+        android:id="@+id/bt_fou"
+        style="@style/CustomButton"
+        android:text="@string/name_bt_fou"/>
+
+    <Button
+        android:id="@+id/bt_fif"
+        style="@style/CustomButton"
+        android:text="@string/name_bt_fif"/>
+
+    <Button
+        android:id="@+id/bt_six"
+        style="@style/CustomButton"
+        android:background="@color/md_red_600"
+        android:textColor="@color/md_white"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:text="@string/name_bt_six"/>
+
+    </LinearLayout>
+</LinearLayout>
